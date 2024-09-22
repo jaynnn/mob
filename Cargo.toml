@@ -1,0 +1,17 @@
+[package]
+name = "mob"
+version = "0.1.0"
+edition = "2021"
+categories = ["game-engines"]
+exclude = ["tools/", "crates/"]
+keywords = ["game", "engine", "gamedev"]
+rust-version = "1.81.0"
+
+[workspace]
+exclude = []
+members = [
+    "crates/*",
+
+]
+
+[dependencies]
